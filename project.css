@@ -13,9 +13,9 @@
     transition: 300ms;
 }
 
-.content:hover{
+/* .content:hover{
     width: 360px;
-}
+} */
 .card-img{
     object-fit: cover;
     height: 200px;
