@@ -295,23 +295,23 @@ header .navbar ul li a:hover {
 }
 
 .skills-content .right .html::before {
-    width: 90%;
-}
-
-.skills-content .right .css::before {
-    width: 60%;
-}
-
-.skills-content .right .js::before {
-    width: 80%;
-}
-
-.skills-content .right .php::before {
     width: 50%;
 }
 
+.skills-content .right .css::before {
+    width: 40%;
+}
+
+.skills-content .right .js::before {
+    width: 50%;
+}
+
+.skills-content .right .php::before {
+    width: 60%;
+}
+
 .skills-content .right .mysql::before {
-    width: 70%;
+    width: 60%;
 }
 
 .skills .projects{
@@ -376,6 +376,10 @@ header .navbar ul li a:hover {
 .contact .row .content .info h3 i {
   padding-right: 1rem;
   color: var(--orange);
+}
+
+.contact .row .content .info .lowInfo{
+  text-transform: lowercase;
 }
 
 .top {
